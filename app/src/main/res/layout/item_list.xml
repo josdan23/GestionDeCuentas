@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/backgroud_item"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tipoMovimientoItemTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Debe"
+        android:textColor="@color/grisOscuro"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/montoItemTv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iconTipoItemIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tipoMovimientoItemTv"
+        app:layout_constraintEnd_toStartOf="@+id/tipoMovimientoItemTv"
+        app:layout_constraintTop_toTopOf="@+id/tipoMovimientoItemTv" />
+
+    <TextView
+        android:id="@+id/fechaItemTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/12/20"
+        android:textColor="@color/grisOscuro"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descripcionItemTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:singleLine="false"
+        android:text=" asdf adsfasd asdf asdf asdf asdf asdf asdf asdf asd fasdf"
+        android:textColor="@color/grisOscuro"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/montoItemTv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fechaItemTv" />
+
+    <TextView
+        android:id="@+id/montoItemTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/background_monto_item"
+        android:text="$12.12"
+        android:textColor="@color/grisOscuro"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/descripcionItemTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipoMovimientoItemTv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

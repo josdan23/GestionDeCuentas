@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="amarillo">#FFBD3A</color>
+    <color name="fondo">#FAFAFA</color>
+    <color name="rojo">#FF6542</color>
+    <color name="magenta">#07BEB8</color>
+    <color name="amarilloClaro">#56FFBD3A</color>
+    <color name="grisOscuro">#E9403F3F</color>
+    <color name="fondoPantalla">#FAFAFA</color>
+    <color name="grisClaro">#EBEBEB</color>
+</resources>

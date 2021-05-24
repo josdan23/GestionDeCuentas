@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gestion de cuentas</string>
+    <string name="title_activity_nuevo_movimiento">NuevoMovimientoActivity</string>
+
+    <string-array name="opciones">
+        <item>Proyecto 1</item>
+        <item>Proyecto 2</item>
+
+    </string-array>
+
+
+</resources>
